@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.main-form {
+    border: 5px solid grey;
+}
+
+.form-box {
+    min-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+}
+
+.form-box label {
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 0;
+}
+
+.form-box input, select {
+    display: block;
+}
+
+.create-button {
+    margin: 20px 10px 10px;
+}
+
+.job-list {
+    display: block;
+    height: auto;
+}
+
+.job-list-left {
+    display: block;
+    float: left;
+}
+
+.job-list-right {
+    display: block;
+    float: right;
+}
+
+.grid-style {
+    display: block;
+    margin: 2px;
+    padding: 5px;
+}
+
+.pop-up {
+    display: block;
+    height: auto;
+    height: auto;
+    position: relative;
+    background-color: white;
+    border: 5px solid grey;
+}
